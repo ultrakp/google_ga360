@@ -381,10 +381,10 @@ view: trafficSource_base {
   dimension: medium {}
   dimension: keyword {}
   dimension: adContent {label: "Ad Content"}
-  measure: source_list {
-    type: list
-    list_field: source
-  }
+  #measure: source_list {
+  #  type: list
+  #  list_field: source
+  #}
   measure: source_count {
     type: count_distinct
     sql: ${source} ;;
