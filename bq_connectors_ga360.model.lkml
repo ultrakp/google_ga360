@@ -1,5 +1,5 @@
 #connection: "bigquery-connectors-ga360"
-connection: "ultradenodo"
+connection: "amazon_redshift_-_analytics"
 
 # include all the views
 include: "*.view"
